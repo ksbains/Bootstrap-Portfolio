@@ -9,7 +9,10 @@ body {
 * {
   box-sizing: border-box;
 }
-
+/*#paragraph{
+  margin-left: 3%;
+}
+*/
 /* general */
 
 .container {
