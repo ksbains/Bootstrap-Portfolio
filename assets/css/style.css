@@ -9,11 +9,12 @@ body {
 * {
   box-sizing: border-box;
 }
-/*#paragraph{
+
+#paragraph{
   margin-left: 3%;
 }
-*/
-/* general */
+
+
 
 .container {
   width: 100%;
@@ -26,7 +27,7 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p:last-child {
@@ -59,11 +60,12 @@ h3 {
   position: absolute;
   z-index: 99;
   width: 100%;
-  margin: 0 0 5% 0%;
+  margin: 0 0 0% 0%;
   overflow: auto;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  padding-bottom: 0px;
 }
 
 #logo {
@@ -78,14 +80,12 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-
 }
 
 nav {
   float: right;
   margin-right: 10%;
   margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 nav a {
@@ -162,7 +162,7 @@ h3,
   width: 100%;
   max-width: 650px;
   padding: 30px;
-  margin: 25% 5% 5% 5%;
+  margin: 15% 5% 5% 5%;
   background: #fff;
   border: 1px solid #ddd;
 }
